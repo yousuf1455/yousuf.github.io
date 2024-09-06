@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Forum&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary: #536942;
+  --secondary: #ffd936;
+  --white: #efefef;
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+  color: var(--primary);
+  background-color: #efefef;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 16px;
+  margin: auto;
+  background-color: white;
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+}
+
+.container + .container {
+  margin-top: 40px;
+}
+
+.header {
+  text-align: center;
+  padding: 40px 0;
+  background-color: var(--primary);
+  color: white;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+ol {
+  list-style: none;
+  padding-left: 16px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+p {
+  line-height: 1.6;
+}
+
+.container:nth-child(2) {
+  margin-top: 60px;
+}
+
+.container:nth-child(3) {
+  margin-top: 60px;
+}
+
+.aqeeda-tawheed-sifaat {
+  background-color:white;
+  padding: 20px;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+.shirk-kise-kehte-hai {
+  background-color:white;
+  padding: 20px;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+.shirk-ke-qisme {
+  background-color: #f2f2f2d8;
+  padding: 20px;
+  border: 1px solid #f2f2f2d8;
+  border-radius: 5px;
+}
+
+.shirk-ke-qisme h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.shirk-ke-qisme ol {
+  margin-bottom: 20px;
+}
+
+.shirk-ke-qisme h3 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.shirk-ke-qisme p {
+  margin-bottom: 10px;
+}
+
+.shirk-ke-qisme h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+
+@media screen and (max-width: 768px) {
+}
+
+
